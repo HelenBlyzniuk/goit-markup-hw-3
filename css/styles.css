@@ -116,13 +116,17 @@ footer {
 
 }
 
-.about > h2 {
+
+/*---------------about------------*/
+.about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
+
+/*---------------our team------------*/
 .our-team > h2 {
   font-weight: 700;
   font-size: 36px;
@@ -130,7 +134,7 @@ footer {
   text-align: center;
 }
 
-.person h3 {
+.name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -138,13 +142,15 @@ footer {
   text-align: center;
 }
 
-.person p {
+.position {
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
 }
+ 
 
+/*---------------examples------------*/
 .btn-secondary {
   color: var(--title-color);
   background-color: #ffffff;
@@ -166,7 +172,10 @@ footer {
   color: var(--additional-color);
   background-color: var(--active-element-color);
 }
-.work h3 {
+
+
+/*---------------works------------*/
+.work-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -174,10 +183,13 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.work p {
+.work-text {
   font-size: 16px;
   line-height: 1.9;
 }
+
+
+/*---------------footer------------*/
 address {
     color: var(--additional-color);
     font-style: normal;

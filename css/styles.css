@@ -66,7 +66,7 @@ nav {
   letter-spacing: 0.02em;
 }
 
-/*---------------hero------*/
+/*---------------hero------------*/
 h1 {
   color: var(--additional-color);
 
@@ -106,11 +106,14 @@ footer {
   letter-spacing: 0.06em;
 }
 
+/*---------------advantages------------*/
 .services-title {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-size: 14px;
+
 }
 
 .about > h2 {

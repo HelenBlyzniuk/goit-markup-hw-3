@@ -13,6 +13,7 @@ body {
   font-size: 14px;
 
   letter-spacing: 0.03em;
+  margin:0;
 }
 
 ul {
@@ -25,12 +26,15 @@ a {
 }
 
 .container{
-  width:1200px;
+  width:1230px;
   margin:0 auto;
+  padding:0 15px;
  
 }
 /*-----------------header-----------*/
 .logo {
+  display:block;
+  margin-right:93px;
   color: var(--active-element-color);
   text-decoration: none;
 
@@ -43,12 +47,32 @@ a {
 .logo > span {
   color: var(--title-color);
 }
+.menu-bar{
+  display:flex;
+  padding-left:0;
+  margin-top:0;
+  margin-bottom: 0;
+  
+
+}
+
+.nav {
+  margin-right:50px;
+}
 
 .logo > .footer-span {
   color: var(--additional-color);
 }
 
 .contacts {
+  display:flex;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  
+  padding-left: 0;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -56,6 +80,15 @@ a {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+}
+
+.contacts-list:not(:last-child){
+  margin-right: 50px;
+}
+
+.contact{
+  display: inline-block;
+   
 }
 
 .nav:hover,
@@ -70,6 +103,15 @@ nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.container-header{
+  display:flex;
+  align-items: baseline;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+
 }
 
 /*---------------hero------------*/

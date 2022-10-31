@@ -108,14 +108,17 @@ nav {
 .container-header{
   display:flex;
   align-items: baseline;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: teal;
 
 }
 
 /*---------------hero------------*/
-h1 {
+.hello-title {
+  margin: 0;
+  padding-bottom: 40px;
+  padding-top: 200px;
   color: var(--additional-color);
 
   font-weight: 900;
@@ -142,6 +145,13 @@ footer {
   background-color: var(--footer-color);
 }
 .btn-main {
+  display:block;
+  min-width:216px;
+  height:50px;
+  margin:0 auto;
+  border: 1px transparent;
+   
+ 
   color: var(--additional-color);
   background-color: var(--active-element-color);
 
@@ -154,6 +164,10 @@ footer {
   letter-spacing: 0.06em;
 }
 
+.container-hello{
+  height:600px;
+}
+
 /*---------------advantages------------*/
 .services-title {
   font-weight: 700;
@@ -161,8 +175,36 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 14px;
+  margin:0;
+  padding-top: 74px;
 
 }
+
+.services{
+  display:flex;
+  margin:0;
+  padding:0;
+}
+
+.services-item:not(:last-of-type){
+  margin-right:30px;
+}
+
+.advantages-title{
+  margin:0;
+}
+
+.services-text{
+  margin:0;
+  padding-top: 10px;
+  line-height: calc(24/14);
+}
+
+.container-advantages{
+  background-color: blue ;
+}
+
+
 
 
 /*---------------about------------*/
@@ -171,16 +213,40 @@ footer {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin:0;
+  padding-top: 118px;
+  padding-bottom: 50px;
 }
 
+.pictures{
+  margin:0;
+  padding:0;
+  display:flex;
+ 
+}
+
+.pic:not(:last-child){
+  margin-right:30px;
+}
+
+.pic{
+  margin-bottom: 94px;
+}
+.container-about{
+  background-color: tomato;
+}
 
 /*---------------our team------------*/
-.our-team > h2 {
+.our-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top:94px;
+  margin-bottom: 50px;
+  
 }
+
 
 .name {
   font-weight: 500;
@@ -195,6 +261,21 @@ footer {
   line-height: 1.19;
 
   text-align: center;
+}
+
+.persons{
+  display:flex;
+  padding:0;
+  margin:0;
+  margin-bottom: 94px;
+}
+
+.person{
+  border-bottom: 2px solid grey;
+   
+}
+.person:not(:last-of-type){
+  margin-right:30px;
 }
  
 

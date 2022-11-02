@@ -26,7 +26,7 @@ a {
 }
 
 .container{
-  width:1230px;
+  width:1170px;
   margin:0 auto;
   padding:0 15px;
  
@@ -110,7 +110,7 @@ nav {
   align-items: baseline;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: teal;
+  
 
 }
 
@@ -201,7 +201,7 @@ footer {
 }
 
 .container-advantages{
-  background-color: blue ;
+  
 }
 
 
@@ -233,7 +233,7 @@ footer {
   margin-bottom: 94px;
 }
 .container-about{
-  background-color: tomato;
+ 
 }
 
 /*---------------our team------------*/
@@ -280,7 +280,33 @@ footer {
  
 
 /*---------------examples------------*/
+
+.examples-title{
+  margin:0;
+ 
+}
+.container-examples{
+  background-color: teal;
+  
+}
+
+.work-list{
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  background-color: aqua;
+
+  
+}
+.work-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
 .btn-secondary {
+  display:block;
+  padding-top: 94px;
+
   color: var(--title-color);
   background-color: #ffffff;
 
@@ -297,6 +323,8 @@ footer {
   cursor: pointer;
 }
 
+
+
 .btn-secondary:hover {
   color: var(--additional-color);
   background-color: var(--active-element-color);
@@ -305,6 +333,8 @@ footer {
 
 /*---------------works------------*/
 .work-title {
+  margin:0;
+  padding:0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -313,20 +343,70 @@ footer {
 }
 
 .work-text {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.9;
+}
+
+.work-pic{
+  margin: 0;
+  padding: 0;
+}
+
+.work-link{
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+  background-color: tomato;
+}
+
+.works{
+  margin:0;
+  padding: 0;
+  display:flex;
+  flex-wrap: wrap;
+  flex-basis:calc((100%-60px)/3);
+  gap:30px;
+
 }
 
 
 /*---------------footer------------*/
 address {
+  display:inline-block;
     color: var(--additional-color);
     font-style: normal;
     line-height: 1.71;
 }
 
 .contact-footer {
+    
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+}
+
+.contacts-footer{
+ 
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.contacts-footer:last-child{
+  padding-bottom: 60px;
+}
+.container-address{
+  padding-top: 20px;
+  padding-left: 215px;
+  
+}
+
+footer>.logo{
+  margin:0;
+  padding-top: 50px;
+    padding-left: 215px;
 }

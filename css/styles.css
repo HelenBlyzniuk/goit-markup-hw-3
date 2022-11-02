@@ -26,7 +26,7 @@ a {
 }
 
 .container{
-  width:1170px;
+  width:1200px;
   margin:0 auto;
   padding:0 15px;
  
@@ -286,7 +286,7 @@ footer {
  
 }
 .container-examples{
-  background-color: teal;
+ 
   
 }
 
@@ -295,7 +295,7 @@ footer {
   margin: 0 auto;
   padding: 0;
   justify-content: center;
-  background-color: aqua;
+  
 
   
 }
@@ -333,8 +333,9 @@ footer {
 
 /*---------------works------------*/
 .work-title {
-  margin:0;
-  padding:0;
+  padding: 0;
+    margin: 0;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -343,33 +344,52 @@ footer {
 }
 
 .work-text {
-  margin: 0;
   padding: 0;
+    margin: 0;
+ 
   font-size: 16px;
   line-height: 1.9;
+  padding: 0;
+    margin: 0;
 }
 
 .work-pic{
+padding: 0;
   margin: 0;
-  padding: 0;
+  display:inline-block;
 }
 
 .work-link{
-  margin: 0;
-  padding: 0;
-  display:inline-block;
-  background-color: tomato;
+  width:370px;
+  padding:0;
+  margin:0;
+  display:block; 
+  
+  
+  
 }
 
 .works{
+ margin:0;
+ padding:0;
+
+ display:flex;
+ flex-wrap: wrap; 
+ gap:30px;
+ 
+}
+.work{
+ 
+  border:solid 1px black;
+  padding:0;
   margin:0;
-  padding: 0;
-  display:flex;
-  flex-wrap: wrap;
   flex-basis:calc((100%-60px)/3);
-  gap:30px;
+
+
 
 }
+
+
 
 
 /*---------------footer------------*/

@@ -380,10 +380,10 @@ padding: 0;
 }
 .work{
  
-  border:solid 1px black;
+  border-bottom:solid 1px black;
   padding:0;
   margin:0;
-  flex-basis:calc((100%-60px)/3);
+  flex-basis: calc((100% - 60px)/3);
 
 
 

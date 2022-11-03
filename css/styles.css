@@ -230,18 +230,21 @@ footer {
 
 
 
-
-
-
 /*---------------about------------*/
+
+.container-about {
+  padding-top: 0;
+  padding-bottom:94px
+
+}
+
 .about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   margin:0;
-  padding-top: 118px;
-  padding-bottom: 50px;
+  
 }
 
 .pictures{
@@ -256,11 +259,11 @@ footer {
 }
 
 .pic{
-  margin-bottom: 94px;
+  margin-top:50px;
+  
+  display:block;
 }
-.container-about{
- 
-}
+
 
 /*---------------our team------------*/
 .our-team-title {

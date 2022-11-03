@@ -108,18 +108,27 @@ nav {
 .container-header{
   display:flex;
   align-items: baseline;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom:1px solid #ECECEC;;
   
 
 }
 
 /*---------------hero------------*/
+
+.container-hello {
+  
+  padding-top:200px;
+  padding-left:237px;
+  padding-bottom: 280px;
+}
+
+
 .hello-title {
+  width:696px;
   margin: 0;
-  padding-bottom: 40px;
-  padding-top: 200px;
+  
   color: var(--additional-color);
 
   font-weight: 900;
@@ -165,9 +174,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.container-hello{
-  height:600px;
-}
+
 
 /*---------------advantages------------*/
 .services-title {

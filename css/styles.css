@@ -322,11 +322,22 @@ footer {
 /*---------------examples------------*/
 
 .examples-title{
-  margin:0;
+    margin: -1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
  
 }
 .container-examples{
- 
+  padding-top: 94px;
+  padding-bottom: 94px;
  
 }
 
@@ -336,20 +347,17 @@ footer {
   padding: 0;
   justify-content: center;
   
-
-  
 }
 .work-list-item:not(:last-child){
   margin-right: 8px;
   
 }
 
-.work-list-item{
- margin-top: 94px;
-}
+
 .btn-secondary {
   display:block;
  
+  padding:6px 22px;
 
   color: var(--title-color);
   background-color: #ffffff;
@@ -377,6 +385,16 @@ footer {
   background-color: var(--active-element-color);
 }
 
+.work-title,
+.work-text{
+  margin:0;
+}
+
+.work-description{
+  padding:20px 24px;
+  border:1px solid #EEEEEE ;
+
+}
 
 /*---------------works------------*/
 .work-title {
@@ -417,12 +435,12 @@ padding: 0;
 }
 
 .works{
- margin-top:56px;
+ margin-top:34px;
  margin-bottom:0px;
  margin-left: 0;
  margin-right: 0;
  padding:0;
- padding-bottom: 94px;
+ 
 
  display:flex;
  flex-wrap: wrap; 

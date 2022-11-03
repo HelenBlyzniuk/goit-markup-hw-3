@@ -180,6 +180,13 @@ footer {
 
 
 /*---------------advantages------------*/
+
+.container-advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
+
 .services-title {
   font-weight: 700;
   line-height: 1.14;
@@ -202,7 +209,17 @@ footer {
 }
 
 .advantages-title{
-  margin:0;
+  margin:-1;
+  position:absolute;
+  width:1px;
+  height:1px;
+  border:0;
+  padding:0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  
 }
 
 .services-text{
@@ -211,9 +228,7 @@ footer {
   line-height: calc(24/14);
 }
 
-.container-advantages{
-  
-}
+
 
 
 

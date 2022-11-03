@@ -260,24 +260,29 @@ footer {
 
 .pic{
   margin-top:50px;
-  
   display:block;
 }
 
 
 /*---------------our team------------*/
+
+.container-our-team{
+  padding-top: 94px;
+  padding-bottom:94px;
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-top:94px;
   margin-bottom: 50px;
   
 }
 
 
 .name {
+  margin:0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -286,17 +291,23 @@ footer {
 }
 
 .position {
+  margin:0;
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
 }
 
+.description{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .persons{
   display:flex;
   padding:0;
   margin:0;
-  margin-bottom: 94px;
+  
 }
 
 .person{

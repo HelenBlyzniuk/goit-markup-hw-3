@@ -56,7 +56,7 @@ a {
 
 }
 
-.nav {
+.menu-bar-item {
   margin-right:50px;
 }
 
@@ -108,19 +108,20 @@ nav {
 .container-header{
   display:flex;
   align-items: baseline;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border-bottom:1px solid #ECECEC;;
-  
+}
 
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ECECEC;
+  
 }
 
 /*---------------hero------------*/
 
-.container-hello {
+.hello {
   
   padding-top:200px;
- 
   padding-bottom: 200px;
 }
 
@@ -128,7 +129,7 @@ nav {
 .hello-title {
   width:696px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   
@@ -169,7 +170,7 @@ footer {
   background-color: var(--active-element-color);
 
   font-family: inherit;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
 
@@ -181,7 +182,7 @@ footer {
 
 /*---------------advantages------------*/
 
-.container-advantages {
+.advantages {
   padding-top: 94px;
   padding-bottom: 94px;
   
@@ -194,7 +195,7 @@ footer {
   text-transform: uppercase;
   font-size: 14px;
   margin:0;
-  padding-top: 74px;
+  
 
 }
 
@@ -232,7 +233,7 @@ footer {
 
 /*---------------about------------*/
 
-.container-about {
+.about {
   padding-top: 0;
   padding-bottom:94px
 
@@ -251,6 +252,7 @@ footer {
   margin:0;
   padding:0;
   display:flex;
+  margin-top: 50px;
  
 }
 
@@ -259,14 +261,14 @@ footer {
 }
 
 .pic{
-  margin-top:50px;
+  
   display:block;
 }
 
 
 /*---------------our team------------*/
 
-.container-our-team{
+.our-team{
   padding-top: 94px;
   padding-bottom:94px;
 }
@@ -277,6 +279,7 @@ footer {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 0;
   
 }
 
@@ -310,14 +313,50 @@ footer {
   
 }
 
-.person{
-  border-bottom: 2px solid grey;
-   
-}
+
 .person:not(:last-of-type){
   margin-right:30px;
 }
  
+/*---------------footer------------*/
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+
+address {
+  display: inline-block;
+  color: var(--additional-color);
+  font-style: normal;
+  line-height: 1.71;
+  margin-top: 20px;
+}
+
+.contacts-footer {
+
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-footer {
+
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+}
+
+
+.footer-logo {
+  margin:0;
+
+}
+
+
 
 /*---------------examples------------*/
 
@@ -335,7 +374,7 @@ footer {
 
  
 }
-.container-examples{
+.examples{
   padding-top: 94px;
   padding-bottom: 94px;
  
@@ -370,7 +409,7 @@ footer {
 
   text-align: center;
   letter-spacing: inherit;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  
   border-radius: 4px;
   background: #F5F4FA;
   border-style: none;
@@ -382,6 +421,7 @@ footer {
 
 .btn-secondary:hover {
   color: var(--additional-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--active-element-color);
 }
 
@@ -399,7 +439,7 @@ footer {
 /*---------------works------------*/
 .work-title {
   padding: 0;
-    margin: 0;
+  margin: 0;
   
   font-weight: 700;
   font-size: 18px;
@@ -435,7 +475,7 @@ padding: 0;
 }
 
 .works{
- margin-top:34px;
+ margin-top:50px;
  margin-bottom:0px;
  margin-left: 0;
  margin-right: 0;
@@ -449,7 +489,7 @@ padding: 0;
 }
 .work{
  
-  border-bottom:1px solid #EEEEEE
+  border-bottom:1px solid #EEEEEE;
   padding:0;
   margin:0;
   flex-basis: calc((100% - 60px)/3);
@@ -459,39 +499,3 @@ padding: 0;
 
 
 
-/*---------------footer------------*/
-
-.container-address {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-}
-
-
-address {
-    display:inline-block;
-    color: var(--additional-color);
-    font-style: normal;
-    line-height: 1.71;
-}
-
-.contacts-footer {
-
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-footer {
-    
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-}
-
-
-footer>.logo{
-  margin:0;
-  
-}

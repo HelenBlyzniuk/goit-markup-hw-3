@@ -442,11 +442,26 @@ padding: 0;
 
 
 /*---------------footer------------*/
+
+.container-address {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+
 address {
-  display:inline-block;
+    display:inline-block;
     color: var(--additional-color);
     font-style: normal;
     line-height: 1.71;
+}
+
+.contacts-footer {
+
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-footer {
@@ -457,25 +472,8 @@ address {
 
 }
 
-.contacts-footer{
- 
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  
-}
-
-.contacts-footer:last-child{
-  padding-bottom: 60px;
-}
-.container-address{
-  padding-top: 20px;
-  padding-left: 215px;
-  
-}
 
 footer>.logo{
   margin:0;
-  padding-top: 50px;
-    padding-left: 215px;
+  
 }
